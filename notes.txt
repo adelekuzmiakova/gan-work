@@ -1,0 +1,20 @@
+## SETTING UP VIRTUAL ENV
+
+# Create the virtual env:
+virtualenv -p python3.5 .env
+
+# Activate the virtual env:
+source .env/bin/activate
+
+# Install project-specific packages:
+pip3 install -r requirements.txt
+
+# When done working:
+deactivate
+
+
+
+
+## DISPLAYING IMAGES PROPERLY
+# The <img> tag has two required attributes: src and alt.
+<img src='assets/gan_pipeline.png' alt="gan_pipeline" width = "900"/>
