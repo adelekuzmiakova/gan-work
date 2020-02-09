@@ -15,4 +15,14 @@ deactivate
 
 
 
+## GAN TUTORIALS:
 
+https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f
+
+https://medium.com/datadriveninvestor/pytorch-deep-learning-nanodegree-generative-adversarial-networks-bc37e2b50a81
+
+
+## GAN MODELS:
+
+1) Pytorch implementation of GAN model described in Generative Adversarial Text to Image Synthesis paper (https://arxiv.org/abs/1605.05396)
+TODO: train the model on the COCO dataset
