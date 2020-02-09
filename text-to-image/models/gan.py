@@ -11,7 +11,6 @@ class generator(nn.Module):
 		self.noise_dim = 100
 		self.ngf = 64
 
-		# based on: https://github.com/pytorch/examples/blob/master/dcgan/main.py
 		self.netG = nn.Sequential(
 			nn.ConvTranspose2d(self.noise_dim, self.ngf * 8, 4, 1, 0, bias=False),
 			nn.BatchNorm2d(self.ngf * 8),

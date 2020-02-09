@@ -1,0 +1,21 @@
+Milestone # 2
+
+- wrote the code to convert datasets from jpeg to hdf5. Datasets include flowers, birds, and MS-COCO (still working). Flowers and birds datasets are stored in Google Drive
+Satya/ML-projects/Datasets
+
+Hd5 file taxonomy is as follows:
+split (train | dev | test )
+example_name
+    'name'
+    'img'
+    'embeddings'
+    'class'
+    'txt'
+
+- set up code for DCGAN (deep convolutional GAN) described here: https://github.com/carpedm20/DCGAN-tensorflow
+
+
+TODO:
+
+1) add the model for conditional GAN - modify models.py and trainer.py
+2) test the model on MS-COCO dataset 
