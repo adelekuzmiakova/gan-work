@@ -12,10 +12,13 @@ example_name
     'class'
     'txt'
 
-- set up code for DCGAN (deep convolutional GAN) described here: https://github.com/carpedm20/DCGAN-tensorflow
+- started setting up the code for DCGAN (deep convolutional GAN) described here: https://arxiv.org/abs/1605.05396 This GAN is a conditional generative adversarial network, 
+since it is conditioned on text descriptions in order to generate images that correspond to the description. 
+- the code contains training process, text-to-image embedding, and loss function estimator
+- script to run is runtime.py with specific arguments
 
 
 TODO:
 
-1) add the model for conditional GAN - modify models.py and trainer.py
-2) test the model on MS-COCO dataset 
+1) write a script for data visualization (containing Data logger class)
+2) test the model on MS-COCO dataset (it is a much bigger and heterogenous dataset)
